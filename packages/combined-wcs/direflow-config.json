@@ -1,0 +1,17 @@
+{
+  "build": {
+    "componentPath": "direflow-components",
+    "emitSourceMap": true,
+    "split": true,
+    "vendor": true
+  },
+  "modules": {
+    "react": false,
+    "reactDOM": false
+  },
+  "polyfills": {
+    "sd": false,
+    "ce": false,
+    "adapter": false
+  }
+}
